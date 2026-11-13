@@ -1,0 +1,21 @@
+import subprocess
+
+#Teaching how to use the print function, prints text to the terminal.
+print("Hello World!")
+
+#Quotes tell Python that the text in the middle is a string rather than code.
+#Pound sign is a comment.
+
+"""
+Triple quotes is a multi-line comment. Used to keep the following block out of execution.
+
+print("test
+
+The commented out print produces the following error
+  File "/home/matt/Documents/PythonChallenges/Day1/day1task1.py", line 9
+    print("test
+          ^
+SyntaxError: unterminated string literal (detected at line 9)
+
+The error is telling us that the string we started doesn't end.
+"""
