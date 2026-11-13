@@ -1,0 +1,11 @@
+"""
+Notes from Day 1
+The print statement is used to output strings
+Strings are strings of characters
+String Concatenation is done with the + sign
+New lines can be created with a \\ and the letter n
+
+The above is a snippet of code with errors, most obvious is missing the print sign but the goal is to debug it
+"""
+
+print("Notes from Day1\nThe print statement is used to output strings\nStrings are strings of characters\nString Concatenation is done with the + sign\nNew lines can be created with a \\ and the letter n")

@@ -1,0 +1,16 @@
+"""
+Learning about new lines
+
+the \n creates a new line so the below code writes "Hello World!" on two lines with 1 print statement. You don't want a space before or after the /n
+"""
+
+print("Hello World!\nHello World!")
+
+
+"""
+String concatenation in Python allows us to combine two or more strings into one, this lesson so far uses the + operator however you can find all methods here: https://www.w3schools.com/python/python_strings_methods.asp
+Whitespace in Python is important, you can get indentation errors for misusing spaces.
+
+"""
+
+print("Hello" + " " + "Name")

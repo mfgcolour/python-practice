@@ -1,0 +1,26 @@
+"""
+Learn to use the Python input() function to collect user input and use it within your own code
+
+This is storing the input in a variable called name and printing a string then whatever is stored in name.
+
+the function input gives a cursor for the user to input text, it takes in an argument for what it will display before the input. "What is your name?" in the example below.
+
+name = is assigning a variable to store the return from input (what the user types in)
+
+"""
+
+name = input("What is your name?")
+
+print("Your name is:", name)
+
+"""
+
+The course wrote the preceding function as
+"""
+
+print("Hello " + input("What is your name?")+"!")
+
+
+"""
+Originally it didn't have an ! mark, a challenge was to take the above and add an exclamination mark to it
+"""

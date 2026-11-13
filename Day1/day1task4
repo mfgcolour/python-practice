@@ -1,0 +1,50 @@
+"""
+Variables let us refer to values by name and change those values during program execution.
+
+The below assigns whatever is input into a variable called name.
+
+The course explains it like an address book, you can store numbers in it but it doesn't mean anything unless you assign a name to it. I dislike this explanation because it interferes with dictionaries.
+
+The function after the first print is slicing the given name to the first 3 characters (index 0,1,2) to show that variables can be changed during execution.
+
+"""
+
+name = input("What is your name?")
+
+
+print(name)
+
+
+
+
+"""
+name = name[:3]
+print(name)
+
+This is slicing the given name to the first 3 characters (index 0,1,2) to show that variables can be changed during execution.
+
+
+
+Pause challenge
+Print out the number of characters from the input using the len() function.
+
+
+"""
+
+
+
+length = len(name)
+
+print(length)
+
+
+"""
+The course did the above in one line
+
+print(len(input("What is your name?")))
+
+For a function of this size it can all be done in one line but the longer it is the less readable it becomes
+
+The next pause challenge was to split it up as I had done previously
+"""
+

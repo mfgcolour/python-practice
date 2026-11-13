@@ -1,5 +1,3 @@
-import subprocess
-
 #Teaching how to use the print function, prints text to the terminal.
 print("Hello World!")
 
